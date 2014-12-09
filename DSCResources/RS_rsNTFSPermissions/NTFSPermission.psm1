@@ -149,3 +149,5 @@ Function Set-TargetResource
         Set-Acl $Path $CurrentACL
     }
 }
+
+Export-ModuleMember -Function *-TargetResource
