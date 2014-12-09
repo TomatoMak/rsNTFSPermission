@@ -51,7 +51,7 @@ RequiredModules = @()
 # FormatsToProcess = @()
 
 # Modules to import as nested modules of the module specified in RootModule/ModuleToProcess
-NestedModules = @('NTFSPermission.psm1')
+NestedModules = @('DSCResources\RS_rsNTFSPermission\NTFSPermission.psm1')
 
 # Functions to export from this module
 FunctionsToExport = @("Get-TargetResource", "Set-TargetResource", "Test-TargetResource")
