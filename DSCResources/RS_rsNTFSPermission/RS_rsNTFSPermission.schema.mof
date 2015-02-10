@@ -1,5 +1,5 @@
 [ClassVersion("1.0.0"), FriendlyName("NTFSPermission")] 
-class NTFSPermission : OMI_BaseResource
+class RS_rsNTFSPermission : OMI_BaseResource
 {
   [Key] string Path;
   [Key] string Account;
